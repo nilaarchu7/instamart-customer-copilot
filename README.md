@@ -312,3 +312,29 @@ Evaluation output: `outputs/agent_evaluation.csv`
 - `outputs/agent_evaluation.csv`
 
 Part D implementation and evaluation completed.
+
+## Reproduce
+
+1. Clone this repository:
+   `git clone https://github.com/nilaarchu7/instamart-customer-copilot.git`
+
+2. Open the project folder.
+
+3. Create and activate a Python virtual environment.
+
+4. Install the required packages:
+   `pip install -r requirements.txt`
+
+5. Open `notebooks/01_python_setup.ipynb` in VS Code or Jupyter Notebook.
+
+6. Run the notebook cells in order to reproduce the project workflow.
+
+The notebook contains the implementation for Parts A, B, C, and D. The supporting Python files are `generate_data.py`, `mock_llm.py`, and `src/validate.py`.
+
+## Limitations and Next Steps
+
+- The project uses generated sample data and is not connected to live Instamart customer systems.
+- The LLM functionality uses a mock LLM for demonstration and evaluation.
+- The RAG implementation uses keyword-based retrieval rather than production-grade vector search.
+- The machine learning results are based on the available sample dataset and may differ with real-world data.
+- Future improvements could include real-time data integration, vector-based retrieval, production LLM integration, and continuous model evaluation.
